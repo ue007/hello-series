@@ -1,0 +1,43 @@
+{
+	"name": "@r/create-react-app-example",
+	"description": "Example of using create-react-app in a TS monorepo",
+	"private": true,
+	"version": "1.0.0",
+	"dependencies": {
+		"react": "~17.0.0",
+		"react-dom": "~17.0.0",
+		"web-vitals": "^2.1.0"
+	},
+	"devDependencies": {
+		"@types/node": "~16.11.0",
+		"@types/react": "~17.0.0",
+		"@types/react-dom": "~17.0.0",
+		"@craco/craco": "~6.4.0",
+		"cross-env": "~7.0.2",
+		"react-scripts": "~4.0.3",
+		"jest-watch-typeahead": "~1.0.0",
+		"fork-ts-checker-webpack-plugin": "~6.5.0",
+		"tsconfig-paths-webpack-plugin": "~3.5.0",
+		"@types/jest": "~27.0.0",
+		"jest": "~27.4.0",
+		"ts-jest": "~27.1.0",
+		"ts-node": "~10.4.0"
+	},
+	"scripts": {
+		"start": "cross-env SKIP_PREFLIGHT_CHECK=true craco start",
+		"build": "cross-env SKIP_PREFLIGHT_CHECK=true craco build",
+		"test": "cross-env SKIP_PREFLIGHT_CHECK=true craco test --watchAll=false"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	}
+}

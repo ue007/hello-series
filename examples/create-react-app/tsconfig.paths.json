@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"@r/components/*": [
+				"../../packages/components/src/*"
+			],
+			"@r/*": [
+				"../../packages/*/src"
+			],
+			"@components/*": [
+				"./src/components/*"
+			],
+			"@hooks/*": [
+				"./src/hooks/*"
+			]
+		}
+	}
+}
