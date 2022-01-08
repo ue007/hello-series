@@ -1,0 +1,7 @@
+{
+	"extends": ["config:base"],
+	"baseBranches": ["master", "npm"],
+	"ignorePresets": [":ignoreModulesAndTests"],
+	"rangeStrategy": "replace",
+	"automerge": true
+}
